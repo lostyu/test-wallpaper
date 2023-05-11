@@ -23,5 +23,5 @@ jobs:
           git config --global user.name 'lostyu'
           git config --global user.email 'lostyu789@163.com'
           git add .
-          git commit -am "update date"
+          git commit -am "README file write"
           git push
