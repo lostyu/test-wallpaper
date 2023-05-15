@@ -22,6 +22,8 @@ jobs:
         run: |
           git config --global user.name 'lostyu'
           git config --global user.email 'lostyu789@163.com'
-          git add .
-          git commit -am "README file write"
+          git add picture/*
+          git add wallper.json
+          git add README.md
+          git commit -am "update README"
           git push
